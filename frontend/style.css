@@ -1,0 +1,8 @@
+div{
+    text-align: center;
+    background-color: aqua;
+}
+.login-container,.register-container{
+    background-color: aquamarine;
+    width: 300px;
+}

@@ -97,14 +97,22 @@
 // const b = backend()
 // console.log(b)
 
-const higherorderfunction = (a)=>{
-    console.log("you are in HOF")
-    a()
-}
-const callbackfunction = ()=>{
-    console.log("im in callback function")
-}
-higheroderfunction(callbackfunction) 
+// const higherorderfunction = (a)=>{
+//     console.log("you are in HOF")
+//     a()
+// }
+// const callbackfunction = ()=>{
+//     console.log("im in callback function")
+// }
+// higheroderfunction(callbackfunction) 
+
+const arr=[20,29,15,30]
+// const arr=arr.map(function(num){
+//     return num*2
+// })
+
+const arr2=arr.map((num)=>num+2)
+console.log(arr2)
 
 
 

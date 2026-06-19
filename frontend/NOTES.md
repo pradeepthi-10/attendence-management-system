@@ -63,3 +63,9 @@ do-white
 for-off
 for-in
 
+TYPES OF FUNCTIONS
+1.function declaration
+2.function expression
+3.arrow function
+4.ananymous function
+

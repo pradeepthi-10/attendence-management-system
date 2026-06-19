@@ -35,18 +35,41 @@
 //     console.log("cannot drive")
 // }
 
-const arr = ["sai","deep","rishi","vennela"]
-for(let name of arr)
-{
-    console.log(name)
+// const arr = ["sai","deep","rishi","vennela"]
+// for(let name of arr)
+// {
+//     console.log(name)
+// }
+
+// const obj = {
+//     name:"samsung A50",
+//     disc:"stylish phone",
+//     price:"25000"
+// }
+// for(let mobile in obj)
+// {
+//     console.log(mobile)
+// }
+
+const obj={
+    name:"Samsung A50",
+    disc:"stylish phone",
+     price:25000
 }
 
-const obj = {
-    name:"samsung A50",
-    disc:"stylish phone",
-    price:"25000"
-}
-for(let mobile in obj)
-{
-    console.log(mobile)
-}
+ for(let mobile in obj)
+ {
+     console.log(mobile)
+     console.log(obj[mobile])
+ }
+
+// const arr2=["bottle","book","bag","ballon"]
+// for(let name in arr2){
+//     console.log(name)
+// }
+
+const arr2=[{
+    name:"Samsung A50",
+   disc:"stylish phone",
+     price:25000
+

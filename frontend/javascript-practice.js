@@ -74,19 +74,38 @@
 //      price:25000
 // }
 //mern()
-function mern(){
-    console.log("welcome to mernn stack classes")
-}
-mern()
-const frontend = function (){
-    console.log("lets start frontend")
-}
-frontend()
+// function mern(){
+//     console.log("welcome to mernn stack classes")
+// }
+// mern()
+// const frontend = function (){
+//     console.log("lets start frontend")
+// }
+// frontend()
 
 // arrow function
-const backend=()=>{
-    console.log("lets start backend")
+// const backend=()=>{
+//     console.log("lets start backend")
+// return "backend completed"
+// }
+// const b = backend()
+// backend()
+//if we use curly braces then we should write returnn start
+
+//why arrow function
+// const backend = () => "backend completed"
+// const b = backend()
+// console.log(b)
+
+const higherorderfunction = (a)=>{
+    console.log("you are in HOF")
+    a()
 }
-backend()
+const callbackfunction = ()=>{
+    console.log("im in callback function")
+}
+higheroderfunction(callbackfunction) 
+
+
 
 

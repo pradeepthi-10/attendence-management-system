@@ -4,8 +4,8 @@ it runs in browsers using NODE.js
 default we use const 
 
 1.VAR 
-var a=10
-var a=20
+var a
+var a
 it indicates a declaration
 a=10 => it indicates intialization
 **redeclaraion and reintialization is possible 

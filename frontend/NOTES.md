@@ -55,3 +55,11 @@ before ES-6(2015) only var is there after that only const,let has been introduce
 6.increment & decrement
 7.conditional
 8.bitwise
+
+**loops**
+for loop
+while 
+do-white
+for-off
+for-in
+

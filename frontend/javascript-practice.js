@@ -21,16 +21,32 @@
 //     console.log(c)
 // }
 
-const age = 19
-const license =true
-if(age>=18)
+// const age = 19
+// const license =true
+// if(age>=18)
+// {
+//     if(license)
+//     {
+//         console.log("can drive")
+//     }
+// }
+// else
+// {
+//     console.log("cannot drive")
+// }
+
+const arr = ["sai","deep","rishi","vennela"]
+for(let name of arr)
 {
-    if(license)
-    {
-        console.log("can drive")
-    }
+    console.log(name)
 }
-else
+
+const obj = {
+    name:"samsung A50",
+    disc:"stylish phone",
+    price:"25000"
+}
+for(let mobile in obj)
 {
-    console.log("cannot drive")
+    console.log(mobile)
 }

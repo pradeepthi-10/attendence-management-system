@@ -9,10 +9,20 @@ import Sidebar from './components/Sidebar'
 import DashboardCard from './components/DashboardCard'
 import StudentStatus from './components/StudentStatus'
 import Dashboard from './pages/Dashboard'
+import { Route } from 'react-router-dom'
+import Students from './pages/Students'
+import Attendence from './pages/Attendence'
+import Reports from './pages/Reports'
 
 function App() {
   return (
-    <Dashboard/>
+    <Routes>
+      <Route path='/' element={<Dashboard />} />
+      <Route path='/students' element={<Students />} />
+      <Route path='/attendence' element={<Attendence />} />
+      <Route path='/Reports' element={<Reports />} />
+    </Routes>
+
 
   )
 }

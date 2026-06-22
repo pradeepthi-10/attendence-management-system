@@ -69,3 +69,41 @@ TYPES OF FUNCTIONS
 3.arrow function
 4.ananymous function
 
+//absent
+DOM (Document Object Model) is a tree-like representation of an HTML document that enables JavaScript to access and manipulate web page elements dynamically
+HTML:
+<h1 id="title">Hello</h1>
+
+JavaScript:
+document.getElementById("title").innerHTML = "Welcome";
+
+Here:
+
+document represents the DOM.
+JavaScript accesses the <h1> element through the DOM.
+The content changes from Hello to Welcome.
+
+DOM it acts like an interface between html and css
+creating elements:
+let p = documenr.getElementBId("demo");
+item.remove();
+event handling:
+an event is action that happrns on webpage
+click event(one click)
+double click event(pnbclick)
+mouse hover event
+
+VIRTUAL DOM:
+it is a javascript representation of the real DOM that react uses to track UIchanges effectively
+DIFFING: comparing old virtual DOM with new virtual DOM to identify the exact changes that need to be applied to the real DOM
+RECONCILLATION:it is the process by which react updates the real DOM effeciently after diffing by applying only the necessary changes
+
+JSX(Javascript Extensible Markup Language):
+it is a syntax extension for javascript that allows to write html like code inside javascript
+jsx is not  html but looks like html behind the scenes converts jsx into javascript using Babel 
+javascript expressions can be used in JSX by using curly braces{}
+JSX Rules:
+1.one parent element
+2.class name instead of class
+3.javascript inside{}
+

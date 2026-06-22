@@ -9,8 +9,8 @@ import Sidebar from './components/Sidebar'
 import DashboardCard from './components/DashboardCard'
 import StudentStatus from './components/StudentStatus'
 import Dashboard from './pages/Dashboard'
-import { Route } from 'react-router-dom'
-import Students from './pages/Students'
+import { Routes,Route } from 'react-router-dom'
+<Route path='/students' element={<Students />} />
 import Attendence from './pages/Attendence'
 import Reports from './pages/Reports'
 

@@ -107,3 +107,6 @@ JSX Rules:
 2.class name instead of class
 3.javascript inside{}
 
+PROP DRILLING:
+
+HOOKS:
